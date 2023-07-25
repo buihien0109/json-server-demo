@@ -1,5 +1,5 @@
 let todos = [];
-const API_URL = "http://localhost:8000/todos"; // deploy xong thì thay URL vào đây
+const API_URL = "/todos"; // deploy xong thì thay URL vào đây
 const todoApis = {
     getAllTodo() {
         return axios.get(API_URL);
